@@ -1,25 +1,25 @@
 {
-  "name": "demo-server",
+  "name": "@revolunet/test-api",
   "description": "simple express server for deploy testing purposes",
   "version": "1.0.0",
-  "main": "demo-server.js",
+  "main": "test-api.js",
   "bin": {
-    "demo-server": "demo-server.js"
+    "test-api": "test-api.js"
   },
   "author": "Julien Bouquillon <julien@revolunet.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/revolunet/demo-server.git"
+    "url": "git+https://github.com/revolunet/test-api.git"
   },
-  "homepage": "https://revolunet.github.io/demo-server/",
+  "homepage": "https://revolunet.github.io/test-api/",
   "bugs": {
-    "url": "https://github.com/revolunet/demo-server/issues"
+    "url": "https://github.com/revolunet/test-api/issues"
   },
   "dependencies": {
     "express": "^4.16.3"
   },
   "scripts": {
-    "start": "./demo-server"
+    "start": "./test-api.js"
   }
 }

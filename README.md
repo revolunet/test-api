@@ -1,12 +1,12 @@
-# demo-server
+# test-api
 
 A simple express server for deploys testing purposes
 
 ## Usage
 
 ```sh
-npm install -g demo-server
-demo-server
+npm install -g @revolunet/test-api
+test-api
 ```
 
 Environnement variables :
@@ -16,4 +16,4 @@ Environnement variables :
 
 ## Related
 
- - docker image : http://github.com/revolunet/demo-server-docker
+ - docker image : http://github.com/revolunet/test-api-docker
