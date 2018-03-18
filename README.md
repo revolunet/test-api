@@ -14,6 +14,8 @@ Environnement variables :
  - `MESSAGE`: custom endpoint message
  - `PORT`: server port (default 3000)
 
-## Related
+## Docker
 
- - docker image : http://github.com/revolunet/test-api-docker
+```sh
+docker run -e MESSAGE="Yo !" -p 3002:3000 revolunet/test-api
+``
